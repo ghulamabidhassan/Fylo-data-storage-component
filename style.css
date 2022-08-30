@@ -25,9 +25,9 @@ body {
 
 .main {
   height: 100vh;
-  width: 100%;
+  width: auto;
   position: relative;
-  /* overflow: hidden; */
+  overflow-y: hidden;
 }
 
 .img {
@@ -187,6 +187,14 @@ body {
 
 /* 420px screen */
 @media screen and (min-width: 26.25em) {
+  body {
+    height: 100%;
+    width: 100%;
+  }
+  .main {
+    height: 100vh;
+    width: 100%;
+  }
 }
 
 /* 728px screen  */
